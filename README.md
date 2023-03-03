@@ -11,7 +11,3 @@ This is a simple Zoo Application that allows you to add new Mammal/Avian using a
 - HTML
 - JavaScript
 - CSS
-
-
-## Zoo Application:
-

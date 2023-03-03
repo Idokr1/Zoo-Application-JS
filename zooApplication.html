@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <script src="zooApplication.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="animalForm" name="animalForm">
+      <div>
+        <label for="animal">Choose an animal:</label>
+        <select name="animal" id="animalClass" required="required">
+          <option disabled selected value>-- select an option --</option>
+          <option value="1">Mammal</option>
+          <option value="2">Avian</option>
+        </select>
+      </div>
+      <div>
+        <label>
+          Id:
+          <input type="number" name="animalId" min="1" required="required" />
+        </label>
+      </div>
+      <div>
+        <label>
+          Animal Name:
+          <input type="text" name="animalName" required="required" />
+        </label>
+      </div>
+      <div>
+        <label>
+          Animal Type:
+          <input type="text" name="animalType" required="required" />
+        </label>
+      </div>
+      <div>
+        <label>
+          Animal Age:
+          <input type="number" name="animalAge" min="1" required="required" />
+        </label>
+      </div>
+      <div>
+        <label>
+          Number of Hairs:
+          <input type="number" name="mammalHairs" required="required" />
+        </label>
+      </div>
+      <div>
+        <label>
+          Number of Feathers:
+          <input type="number" name="avianFeathers" required="required" />
+        </label>
+      </div>
+      <div>
+        <input type="submit" value="Add Animal" class="submitButton" />
+      </div>
+    </form>
+  </body>
+</html>
